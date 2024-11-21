@@ -84,8 +84,8 @@ def http_error(status):
 http_error(4040)
 
 
+#Enum module
 from enum import Enum
-
 class Color(Enum):
     RED = "Red"
     GREEN = "Green"
